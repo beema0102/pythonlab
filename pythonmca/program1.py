@@ -1,0 +1,5 @@
+f=open("program1.txt","w")
+f.write("welcome to mits")
+f.close()
+f= open("program1.txt","r")
+print(f.read())
